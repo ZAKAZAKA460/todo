@@ -1,5 +1,6 @@
 import { Button, ButtonIcon } from "@/components/shared/UI/buttons/buttons.jsx";
 import sun from "@/assets/icons/sun.svg"
+import Header from "@/components/shared/header/header.jsx";
 
 
 export default function Home(){
@@ -18,6 +19,7 @@ export default function Home(){
             }}
             child={"New Template"}>
             </Button>
+            <Header />
         </main>
     );
 }

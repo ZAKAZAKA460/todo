@@ -1,0 +1,25 @@
+.header{
+    background-color: var(--back-dark-third);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    h1 {
+        color: var (--text-dark-white);
+        
+    }
+}
+
+.widjets{
+    display: flex;
+    gap: 10px;
+}
+.dateBlock{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+        color: var (--text-white-05);
+    }
+}
