@@ -1,0 +1,42 @@
+.card{
+    width: 250px;
+    background-color: var(--back-dark-third);
+    justify-content: left;
+    align-items: top;
+    padding: 020px 15px;
+    h1 {
+        color: rgb(255, 255, 255);
+        
+    }
+}
+.dateBlock{
+    
+    align-items: left;
+    gap: 5px;
+
+    p {
+        color: white;
+    }
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+        
+    p {
+        color: white;
+        }
+    }
+.top{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+        
+    p {
+        color: white;
+        }
+
+}
+
+
