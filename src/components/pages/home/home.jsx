@@ -14,7 +14,7 @@ const cardMass =[
     title:"Buy bread",
     project:"Goal",
     status:"In progress",
-    progress:79,
+    progress:20,
     dueDate: "15.10.24"
 },
 
