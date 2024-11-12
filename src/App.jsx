@@ -1,12 +1,15 @@
 import Home from '@/components/pages/home/home.jsx';
 import "./thems/variable.css";
 import './App.css';
-import { InputDefault } from './components/shared/UI/buttons/inputs/input';
+import { InputDefault, InputPassword } from './components/shared/UI/buttons/inputs/input';
+import { TextArea } from '@/components/shared/UI/textArea/textarea.jsx';
 
 function App() {
   return (<>
-  <InputDefault/>
+  <InputPassword />
+  <InputDefault ph={"yuybguyghyuguy"}/>
   <Home />
+  <TextArea br = {"20px"}ft = {"40px"}bgcolor={"gray"} ph={"fffff"}/>
   </>)
 }
 

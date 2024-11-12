@@ -1,4 +1,5 @@
 .card{
+    border-radius: 10px;
     width: 250px;
     flex-direction: column;
     background-color: var(--back-dark-third);
