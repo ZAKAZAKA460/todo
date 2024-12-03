@@ -1,17 +1,23 @@
-import Home from '@/components/pages/home/home.jsx';
+
 import "./thems/variable.css";
 import './App.css';
-import { InputDefault, InputPassword } from './components/shared/UI/buttons/inputs/input';
-import { TextArea } from '@/components/shared/UI/textArea/textarea.jsx';
-import SideBar from './components/shared/ProjectsSidebar/SideBar';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "@/components/pages/main/main.jsx";
+import Profile from "@/components/pages/profile/profile.jsx";
+
+
+
 
 function App() {
   return (<>
-  <InputPassword />
-  <SideBar/>
-  <InputDefault ph={"yuybguyghyuguy"}/>
-  <Home />
-  <TextArea br = {"20px"}ft = {"40px"}bgcolor={"gray"} ph={"fffff"}/>
+
+  <BrowserRouter>
+  <Routes>
+      <Route path="/" element={<Main/> } />
+      <Route path="/profile" element={<Profile/>} />
+      
+  </Routes>
+  </BrowserRouter>
   </>)
 }
 
