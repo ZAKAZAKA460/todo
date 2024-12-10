@@ -3,7 +3,7 @@ import profile from "@assets/icons/DropMeFiles_v9B2G/profile.svg";
 import calendar from "@assets/icons/DropMeFiles_v9B2G/calendar.svg";
 import main from "@assets/icons/DropMeFiles_v9B2G/main.svg";
 import logout from "@assets/icons/DropMeFiles_v9B2G/logout.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const linksList = [
     {
@@ -36,10 +36,11 @@ const NavBar = () => {
                     })}
                 
             </nav>
+            <Link to={"/login"}>Sign out</Link>
         </aside>
     );
 
 
 
 };
-export default NavBar
+export default NavBar;

@@ -1,8 +1,11 @@
+import NavBar from "@/components/shared/navbar/navbar";
+
 function Error() {
     return (
         <>
-        <h1> 404</h1>
-        <main></main>
+        <NavBar/>
+
+        <main> <h1>Page is not found</h1></main>
         </>
     );
 }

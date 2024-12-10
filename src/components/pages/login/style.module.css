@@ -1,0 +1,10 @@
+.text {
+    border-radius: 10px;
+    width: 250px;
+    flex-direction: column;
+    background-color: var(--back-dark-third);
+    align-items: top;
+    padding: 020px 15px;
+    gap: 22px;
+}
+
