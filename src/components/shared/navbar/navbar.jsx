@@ -28,7 +28,7 @@ const NavBar = () => {
                     {linksList.map(function(item,i) {
                         console.log("number",i,item);
                         return (<>
-                        <NavLink to={item.link}>
+                        <NavLink className={({isActive})=> isActive ? "nav-link --active-link" : "nav-link"} to={item.link}>
                         <img src={item.icon} alt=""/>
                         </NavLink>
                         </>

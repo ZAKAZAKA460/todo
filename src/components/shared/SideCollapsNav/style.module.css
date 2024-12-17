@@ -1,0 +1,13 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: white;
+}
+.navigation {
+  li {
+    margin-bottom: 10px;
+  }
+}
+.top {
+}

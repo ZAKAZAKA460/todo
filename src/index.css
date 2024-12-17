@@ -1,16 +1,19 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.active{
+.nav-link {
   align-items: center;
   justify-items: center;
   width: 44px;
   height: 44px;
   display: block;
   padding: 13px;
-  background-color: rgba(88, 80, 80, 0.21);
   border-radius: 50%;
+}
+
+.--active-link {
+  background-color: rgba(88, 80, 80, 0.21);
 }
