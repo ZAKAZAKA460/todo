@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "./style.module.css"
+import line from "@assets/images/Vector.png"
 
 
 const navList = [
@@ -33,7 +34,7 @@ const SideBarNav = ({navList, title}) => {
         </div>
 
         {isCollapse && (
-        <ul className={style["navigation"]}>
+        <ul style={{listStyleImage: `url(${line})`}} className={style["navigation"]}>
             <li>All {title}</li>
             {
                 navList.map((item, i)=>{

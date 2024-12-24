@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.nav-link {
+:-moz-drag-over .nav-link {
   align-items: center;
   justify-items: center;
   width: 44px;

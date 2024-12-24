@@ -5,8 +5,10 @@
   color: white;
 }
 .navigation {
+  border-left: 2px solid rgba(255, 255, 255, 0.101);
   li {
     margin-bottom: 10px;
+    list-style-position: inside;
   }
 }
 .top {
