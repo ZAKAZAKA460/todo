@@ -35,7 +35,7 @@ const SideBarNav = ({navList, title}) => {
 
         {isCollapse && (
         <ul style={{listStyleImage: `url(${line})`}} className={style["navigation"]}>
-            <li>All {title}</li>
+            <li>All {title} {navList.length}</li>
             {
                 navList.map((item, i)=>{
                     return <li key={i}>{item.title}
