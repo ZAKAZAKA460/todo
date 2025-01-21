@@ -2,9 +2,12 @@ import { ButtonIcon } from "@/components/shared/UI/buttons/buttons.jsx";
 import progress from "@assets/icons/progress.svg"
 import menu from "@assets/icons/menu.svg"
 import style from "./style.module.css"
+import { Link } from "react-router-dom";
 
 const Todocard = ({card}) =>{
-    return (<article className={style.card}>
+    return (
+    <Link to={`todo/${card.id}/${card.title}`}>
+    <article className={style.card}>
         <div className={style.top}>
         <h1>{card.title}</h1>
         <ButtonIcon icon={menu} />
@@ -26,7 +29,7 @@ const Todocard = ({card}) =>{
         </div>
         
     </article>
-    );
+    </Link>);
 };
 
 export default Todocard;
