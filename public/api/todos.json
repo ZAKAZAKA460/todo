@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "todos": [
+            {
+            "id":1,
+             "title":"Milk",
+            "status":"in progress",
+            "dueDate":"02.02.25",
+            "progress": 3
+            },
+            {
+                "id":2,
+                "title":"bread",
+               "status":"in progress",
+               "dueDate":"15.03.25",
+               "progress": 0
+               }
+        ]
+            },
+              { "id":2,
+               "todos": [
+                   {
+                   "id":3,
+                    "title":"NavBar",
+                   "status":"in progress",
+                   "dueDate":"03.15.24",
+                   "progress": 89
+                   },
+                   {
+                       "id":4,
+                       "title":"sleep",
+                      "status":"in progress",
+                      "dueDate":"25.07.23",
+                      "progress": 50
+                      }
+                      
+        ]
+              }
+            ]
+     
+    
