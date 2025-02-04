@@ -1,7 +1,6 @@
 .text {
   border-radius: 10px;
   width: 350px;
-  flex-direction: column;
   background-color: var(--back-dark-third);
   align-items: top;
   padding: 020px 15px;
